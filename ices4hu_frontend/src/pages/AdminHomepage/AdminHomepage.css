@@ -1,0 +1,118 @@
+.button-container {
+    position: absolute;
+    top: 9%;
+    left: 3%;
+    display: grid;
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: -1rem;
+    align-items: center;
+    height: 20%;
+}
+  
+.b1 {
+    width: 100%; /* Set the button width */
+    height: 65%; /* Set the button height */
+    background: linear-gradient(180deg, #3A3A3A 0%, #1E1E1E 100%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+}
+
+
+
+.list-container {
+    display: flex;
+    margin-top:15rem;
+    margin-left: 5rem;
+    
+  }
+  
+  .list-column {
+    flex: 1;    
+  }
+
+  .user-header span,
+  .course-header span{
+    margin-right: 10rem;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 23px;
+    
+  }
+
+  .user-header,
+  .course-header {
+    background-color:#d0d0d0;
+    padding: 15px;
+    color:black;
+    width:55rem;
+    
+  }
+
+  .user-row,
+  .course-row {
+    align-items: center;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #f3f3f3;
+    width:55rem;
+    padding: 15px;
+    
+  }
+
+  .user-row span,
+  .course-row span {
+    flex-grow: 1;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .update-button{
+    margin-left: 50px;
+    background: linear-gradient(180deg, #3A3A3A 0%, #1E1E1E 100%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    color: #f3f3f3;
+    border: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+  }
+
+  .adminHP-button {
+    margin-left: auto;
+    margin-right: 2rem;
+    background: linear-gradient(180deg, #DC0000 0%, #AB0000 100%);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    width: 100px;
+    height: 40px;
+    color: #f3f3f3;
+    border: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 12px;
+  }
+
+  .head-list{
+    
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: fit-content;
+
+    background: linear-gradient(180deg, #D1D1D1 0%, #a0a0a0 100%);
+    opacity: 1;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  
+  
+  

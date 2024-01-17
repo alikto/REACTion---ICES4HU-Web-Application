@@ -1,0 +1,45 @@
+.containerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 40px 60px 40px 200px;
+    width: 500px;
+    height: 500px;
+    border-radius: 100px;
+    background: linear-gradient(to bottom, #ab0000, #db0000);
+    box-shadow : 4px 12px 17px 1px rgba(0, 0, 0, 0.3);
+  };
+
+
+  .iconStyle {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+  };
+
+  .inputStyle {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    margin-bottom: 40px;
+    font-size: 30px;
+    width: 400px;
+    height: 70px;
+    box-sizing: border-box;
+    background: #d9d9d9;
+  }
+
+  .button {
+    background: linear-gradient(to bottom, #3a3a3a, #1e1e1e);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 140px;
+    height: 60px;
+    border-radius: 100px;
+    font-size: 20px;
+  }

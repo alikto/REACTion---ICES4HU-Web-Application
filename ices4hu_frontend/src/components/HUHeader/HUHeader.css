@@ -1,0 +1,52 @@
+
+.row {
+    text-align: center;
+}
+
+.parag {
+
+    text-align: center;
+}
+
+.l1{
+    position: relative;
+    left: 385px;
+    top: 6px;
+}
+
+
+
+.parag h1 {
+    position: absolute;
+    width: 409px;
+    height: 156px;
+    left: 359px;
+    top: 356px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78px;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 5px rgba(91, 91, 91, 0.45);
+}
+
+.p1{
+    position: absolute;
+    width: 613px;
+    height: 234px;
+    left: 257px;
+    top: 576px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+
+    color: #3A3A3A;
+}

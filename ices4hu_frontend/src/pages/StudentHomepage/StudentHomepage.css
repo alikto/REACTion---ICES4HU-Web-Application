@@ -1,0 +1,145 @@
+
+.student-page-top {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-right: 400px;
+    padding: 10px;
+  }
+  
+
+.student-page-top select{
+    width: 500px;
+    height: 70px;
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    font-size: 30px;
+    color: #555;
+    border: none;
+    outline: 0;
+}
+
+.student-page-top option{
+    background-color: #d9d9d9;
+    font-size: 30px;
+}
+
+.student-page-bottom {
+  font-family: 'Montserrat';
+  margin: 0 auto; /* Add this line */
+  margin-top: 4em;
+  width: fit-content; /* Add this line */
+}
+.student-survey-area {
+  width: 105rem;
+  border-bottom: 2px solid #c4c4c4;
+  border-left: 2px solid #c4c4c4;
+  border-right: 2px solid #c4c4c4;
+  border-radius: 50px;
+}
+.student-survey-header {
+  border-radius: 50px 50px 0px 0px;
+  background-color: #c4c4c4;
+  padding: 15px;
+  color: black;
+  display: flex; /* Added */
+}
+
+
+.id-span {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  font-weight: 550;
+  font-size: 20px;
+  align-self: center; /* Added */
+}
+.question-span {
+  margin-right: 1rem;
+  font-weight: 550;
+  font-size: 20px;
+  align-self: center; /* Added */
+}
+
+
+.question-row {
+  display: flex;
+  align-items: center;
+  min-height: 3rem; /* Set a minimum height for the question row */
+}
+
+/* Style for even question IDs */
+.question-row:nth-child(odd) {
+  background-color: #d0d0d0;
+}
+.question-row:last-child {
+  border-radius: 0px 0px 50px 50px;
+}
+
+.question-id {
+  margin-left: 2rem;
+  width: 4rem;
+}
+
+.question-text {
+  max-width:80rem;
+  margin-right: 1rem;
+}
+
+.rating-dots {
+  display: flex;
+  gap: 1.6rem;
+  margin-left: auto;
+  margin-right: 4.8rem;
+}
+
+.rating-dot {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: rgb(161, 161, 161);
+}
+
+.rating-dot.selected {
+  border-radius: 50%;
+  background-color: rgb(43, 43, 43);
+}
+.number-span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: 4rem;
+  align-self: center;
+}
+
+.number {
+  margin-left: 2rem;
+  font-weight: bold;
+}
+
+.survey-button {
+  background: linear-gradient(180deg, #3A3A3A 0%, #1E1E1E 100%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  width: 20rem;
+  height: 4rem;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.survey-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-top: 40px;
+  margin-bottom: 40px;
+  gap: 50px;
+}

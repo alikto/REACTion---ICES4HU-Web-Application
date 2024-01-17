@@ -1,0 +1,38 @@
+
+
+.logrectcard {
+    height: fit-content;
+    width: fit-content;
+    border: solid;
+    border-radius: 20%;
+    background: linear-gradient(to top, #DC0000,#AB0000);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.la{
+    display: flex;
+}
+
+.card-header{
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+
+.form-control-login {
+    float: left;
+    text-align: left;
+    width: 396px;
+    height: 69px;
+
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    border-width: 0px;
+
+    font-size: 30px;
+    padding: 10px;
+}

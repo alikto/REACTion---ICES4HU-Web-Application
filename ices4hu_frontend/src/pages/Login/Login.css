@@ -1,0 +1,17 @@
+
+.parent {
+    text-align: center;
+}
+
+.childa {
+    float: left;
+    margin-top: 5rem;
+    margin-left: 7rem;
+}
+
+
+.childb {
+    float: right;
+    margin-top: 9rem;
+    margin-right: 10rem;
+}

@@ -1,0 +1,59 @@
+.addusercard {
+  background: linear-gradient(180deg, #AB0000 0%, #DB0000 100%);
+  box-shadow: 4px 12px 17px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
+  border: none;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addusercard h2 {
+  font-size: 3rem;
+  color: #FFFFFF;
+}
+
+.addusercard form {
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.addusercard label {
+  width: 10rem;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.addusercard input,
+select {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #FFFFFF;
+  width: 13rem;
+  height: 3rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.addusercard #student-id-input {
+  display: none;
+}
+.addusercard button {
+  background: linear-gradient(180deg, #3A3A3A 0%, #1E1E1E 100%);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+  padding: 1rem 3rem;
+}
+.addusercard button:first-child {
+  margin-right: 1rem;
+}

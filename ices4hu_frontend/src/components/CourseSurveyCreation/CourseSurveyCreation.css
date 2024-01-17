@@ -1,0 +1,60 @@
+.input_button_dropdown_row {
+    margin: 5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.createSurveyHeader {
+    font-family: 'Montserrat';
+    margin-left: 5em;
+    margin-top: 4em;
+}
+
+.createSurveyHeader p {
+    font-size: 5em;
+}
+
+.button-add-question {
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+.selectCourse {
+  background-image: linear-gradient(to bottom, #AB0000 0%, #DB0000 100%);
+  border-radius: 2em;
+  color: white;
+  margin-right: 2em;
+}
+
+.optionsCourse {
+  color: black;
+}
+
+.button-create-survey {
+  margin-left: 2em;
+}
+  
+
+
+table {
+    border: 2px solid grey;
+    height: auto;
+    margin-left: 5em;
+    margin-top: 3em;
+    margin-bottom: 6em;
+    width: 90%;
+  }
+    
+  th p{
+    font-size: 2em;
+    height: auto;
+    width: auto;
+    font-family: "Montserrat";
+  }
+    
+  td {
+    text-align: left;
+    height: auto;
+  }

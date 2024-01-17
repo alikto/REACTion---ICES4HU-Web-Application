@@ -1,0 +1,32 @@
+.heading_instructor_container {
+    margin-top: 12rem;
+    text-align: center;
+    float: right;
+    margin-right: 4em;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-style: italic;
+}
+.heading_instructor {
+    font-size: 2em;
+
+}
+
+.two_buttons_instructor {
+    margin-top: 6em;
+    
+}
+
+.instHomepageBTN {
+    border-radius: 5em;
+    background-image: linear-gradient(to bottom, #AB0000 0%, #DB0000 100%);
+    color: white;
+    margin-left: 15em;
+    font-size: 1.15em;
+    width: 20%;
+}
+
+.instHomepageBTN:hover {
+    background-image: linear-gradient(to bottom, #d60000 0%, #ff1c1c 100%);
+    color: white;
+}
